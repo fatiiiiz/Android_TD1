@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="switch_preference_1"
+        android:title="Login preference" />
+    <EditTextPreference
+        android:defaultValue="Default value"
+        android:key="login"
+        android:dependency="switch_preference_1"
+        android:title="Login" />
+</PreferenceScreen>

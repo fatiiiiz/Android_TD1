@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    android:gravity="center_horizontal"
+    android:id="@+id/appid"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="@string/login"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/login"
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:hint="@string/user_login" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="64dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="216dp"
+        android:layout_height="161dp"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:timePickerMode="spinner" />
+
+    <LinearLayout
+        android:layout_width="381dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:textAlignment="center">
+
+        <Button
+            android:id="@+id/action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="@string/action"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="TextView" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="381dp"
+        android:layout_height="62dp"
+        android:gravity="right"
+        android:text="TextView">
+
+        <Button
+            android:id="@+id/courses"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:text="@string/faire_les_courses" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="378dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/pref"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Préférences" />
+
+        <Button
+            android:id="@+id/quit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="140dp"
+
+            android:text="@string/quitter" />
+    </LinearLayout>
+
+</LinearLayout>

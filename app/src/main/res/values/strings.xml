@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FirstApplication</string>
+    <string name="my_first_application">My First Application!</string>
+    <string name="login">Login</string>
+    <string name="user_login">User Login</string>
+    <string name="faire_les_courses">Faire les courses</string>
+    <string name="quitter">Quitter</string>
+    <string name="action">Button</string>
+    <string name="buying_msg">Voulez-vous acheter ?</string>
+</resources>
